@@ -4,14 +4,14 @@ language: shell
 
 branches:
   only:
-    - cron #replace variables, omit brackets
+    - cron-nemchik #replace variables, omit brackets
 
 services:
   - docker
 
 env:
   global:
-    - DOCKERHUB="linuxserver/mods" #don't modify
+    - DOCKERHUB="nemchik/mods" #don't modify
     # - BASEIMAGE="baseimagename" #not used
     - MODNAME="cron" #replace
 
