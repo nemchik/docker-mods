@@ -2,7 +2,7 @@
 
 if [ -f /usr/bin/apt ]; then
   # ubuntu
-  exec /usr/sbin/cron -f -L 5 -c /etc/crontabs
+  /usr/sbin/cron -f -L 5
 fi
 if [ -f /sbin/apk ]; then
   # alpine
