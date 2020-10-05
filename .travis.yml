@@ -11,7 +11,7 @@ services:
 
 env:
   global:
-    - DOCKERHUB="linuxserver/mods" #don't modify
+    - DOCKERHUB="nemchik/mods" #don't modify
     - BASEIMAGE="universal" #replace
     - MODNAME="cron" #replace
 
